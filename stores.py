@@ -1,11 +1,16 @@
 import random
 
-def search_all(keyword):
-    if random.random() < 0.2:
+def search_all(product_name: str):
+    """
+    Simulation de stock (remplacera ensuite le vrai scraping)
+    """
+
+    if random.random() < 0.25:  # 25% chance dispo
         return {
-            "name": keyword,
-            "price": 899,
-            "url": "https://example.com/product",
+            "name": product_name,
+            "price": random.randint(850, 1100),
+            "url": f"https://example.com/{product_name.replace(' ', '-').lower()}",
             "store": "DemoStore"
         }
+
     return None
