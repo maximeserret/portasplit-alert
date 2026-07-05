@@ -32,6 +32,7 @@ def is_allowed_to_notify(state, key):
 
 
 def main():
+    send_message("🧪 Test GitHub Actions OK")
     state = load_state()
 
     print("🔎 Début du scan produits...")
