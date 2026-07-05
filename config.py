@@ -1,0 +1,2 @@
+PRODUCT_KEYWORDS = ["Midea PortaSplit"]
+MAX_PRICE = 1000
