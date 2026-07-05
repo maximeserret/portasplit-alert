@@ -8,7 +8,7 @@ def search_all(product_name: str):
     if random.random() < 0.25:  # 25% chance dispo
         return {
             "name": product_name,
-            "price": random.randint(850, 1100),
+            "price": random.randint(850, 950),
             "url": f"https://example.com/{product_name.replace(' ', '-').lower()}",
             "store": "DemoStore"
         }
