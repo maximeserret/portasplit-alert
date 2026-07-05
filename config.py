@@ -1,2 +1,6 @@
-PRODUCT_KEYWORDS = ["Midea PortaSplit"]
-MAX_PRICE = 1000
+PRODUCTS = [
+    {
+        "name": "Midea PortaSplit",
+        "max_price": 1000
+    }
+]
